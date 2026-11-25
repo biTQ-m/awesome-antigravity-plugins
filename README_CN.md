@@ -81,6 +81,7 @@
 *减少冗余轮次、管理会话工程流、自动化代码审查与多 Agent 闭环协作插件。*
 
 - **[AGY Fast](https://github.com/INK-Q/agy-fast)** — 非侵入式 MCP 加速插件（支持 CLI / Desktop / IDE），在不破坏原生 UI 与 Diff 视图的前提下减少冗余工具轮次与 Token 开销。
+- **[agy-memory](https://github.com/maxLWS/agy-memory)** — 零依赖本地跨对话记忆插件（支持 CLI / Desktop / IDE，与 `AGY Fast` 互补共存）：启动注入只读开场快照，支持中英文全文检索（自动回填 `transcript_full.jsonl` 长回复）、Swarm 倒序装包、文件写读与命令报错回溯（`file_history` / `error_history`）、带修订校验的可编辑 Markdown 笔记以及按需只读查本机 Codex / Claude 会话。`MCP + Hooks + Rules + CLI`
 - **[AGY Dart](https://github.com/zou172866/agy-dart)** — 将批量工具加速、本地 SQLite FTS5 上下文窗口保护与实时 Sidecar 仪表盘融为一体的综合增强插件。
 - **[AGY Fast IO](https://github.com/oil-oil/agy-fast-io)** — 让 Antigravity 少走冗余回合、减少非必要等待的轻量本地规则插件。
 - **[Antigravity Conversation Renamer MCP](https://github.com/falconchen/antigravity-conversation-renamer-mcp)** — 基于 Node.js 内置 `node:sqlite` 的轻量级本地 Stdio MCP 服务（配套 `/rename` 斜杠命令 Skill 与话题偏离自动更新 Rule）：免辅助功能权限、无需重启客户端，在 `.pbtxt` 注解、SQLite 主表与 FTS5 索引及 Protobuf 缓存间原子无损同步重命名当前或历史会话标题。`MCP + Skill + Rules`
