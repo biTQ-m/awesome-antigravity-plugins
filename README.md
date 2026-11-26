@@ -74,6 +74,7 @@
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — Real-time Sidecar tracking agent phases, Lifecycle Hooks, and upstream reachability to distinguish active work from silent hangs.
 - **[ag-vario](https://github.com/Staaaying/ag-vario)** — Zero-dependency, read-only macOS HUD for Antigravity 2.0 Desktop showing per-pane composer cards (session tokens, 5-category context breakdown, subagents across 2/3/4+ split panes) alongside titlebar `5h`/`7d` quota rings and a 30-day usage heatmap, with verified backup and lossless restore. `macOS` `Desktop HUD`
 
+- **[AGY Usage (`agy-usage`)](https://github.com/qiudai0627/agy-usage)** — Zero-dependency, 100% local real-time quota and token usage monitor with a macOS notch-safe floating pill (`Swift`), Windows taskbar mini widget, CLI `statusLine`, and 11-language web dashboard (`Light · Airy · Dark` themes, independent Gemini & Claude/GPT 5h/7d reset timers, and privacy-safe share cards). `CLI statusLine + Desktop HUD`
 ---
 
 ## Performance, Workflow & Swarm Orchestration
