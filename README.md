@@ -102,6 +102,7 @@
 - **[Computer Use AGY](https://github.com/Jayanyixing/computer-use-agy)** — Open-source (MIT) macOS Computer Use MCP server and Antigravity plugin for desktop GUI interaction.
 - **[Antigravity Cua Driver](https://github.com/WeZZard/antigravity-cua-driver)** — Background native GUI automation plugin across macOS, Windows, and Linux powered by Cua Driver.
 - **[Firecrawl Antigravity Plugin](https://github.com/firecrawl/firecrawl-antigravity-plugin)** — Official Firecrawl plugin for clean web scraping, full-site crawling, and LLM-ready Markdown extraction.
+- **[ultrafast](https://github.com/ultrafastmov/ultrafast)** — Open-source (MIT/Apache-2.0) GPU video engine with an `agy` plugin: the agent writes a video as a JSON document, then checks it, looks at contact sheets and exact frames, reviews it for unreadable, clipped or overlapping text, and exports MP4, ProRes, WebM or GIF through 20 local MCP tools. Linux (Vulkan) and macOS (Metal). `MCP + Skill`
 
 ---
 

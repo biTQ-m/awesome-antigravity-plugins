@@ -102,6 +102,7 @@
 - **[Computer Use AGY](https://github.com/Jayanyixing/computer-use-agy)** — 基于 MIT 协议开源的 macOS Computer Use MCP 服务与 Antigravity 桌面操控插件。
 - **[Antigravity Cua Driver](https://github.com/WeZZard/antigravity-cua-driver)** — 基于 Cua Driver 的跨平台（macOS / Windows / Linux）后台原生 GUI 自动化插件。
 - **[Firecrawl Antigravity Plugin](https://github.com/firecrawl/firecrawl-antigravity-plugin)** — Firecrawl 官方插件，为 Agent 提供高质量网页抓取、整站爬取与结构化 Markdown 提取能力。
+- **[ultrafast](https://github.com/ultrafastmov/ultrafast)** — 开源（MIT/Apache-2.0）GPU 视频引擎，附带 `agy` 插件：Agent 先把视频写成 JSON 文档，再通过 20 个本地 MCP 工具检查文档、查看联系表与精确帧、找出难以阅读、被裁切或互相重叠的文字，并导出 MP4、ProRes、WebM 或 GIF。支持 Linux（Vulkan）与 macOS（Metal）。`MCP + Skill`
 
 ---
 
