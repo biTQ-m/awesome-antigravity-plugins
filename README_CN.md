@@ -138,6 +138,7 @@
 - **[oh-my-antigravity (`OmA`)](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity)** — 面向 Antigravity CLI（`agy`）的上下文工程与多智能体团队协作工作流套件。`Skills + Subagents`
 - **[LitGravity](https://github.com/wjgoarxiv/litgravity)** — 轻量级 `agy` CLI 工程流插件（原 `antigravity-swarm`）：在提示词前加上 `lit`，即可自动串联规划、测试、代码审查与下一轮会话交接单。`Workflow + Rules`
 - **[AGYStack](https://github.com/jtaroreh/agystack)** — 面向 Google Antigravity 的闭环软件工程工作流与多智能体（Swarm）编排插件。`Swarm + Skills`
+- **[Antigravity Research Kit](https://github.com/sipki-tech/antigravity-research-kit)** — 零依赖、零 API Key 的 Google Antigravity（CLI / Desktop 2.0 / IDE）多智能体深度研究插件：协同并行 `research-scout`、对抗式红队核查 `research-verifier` 与离线撰稿 `research-writer`（BLUF 与 ADR 对比模板），内置 Node.js CLI 实现 SSRF 安全全文抓取、grounding 重定向还原、GitHub/arXiv/HN/npm/PyPI/RSS 一手采集与确定性引用审计。`Skills + Subagents + CLI`
 - **[agy-hq](https://github.com/zjshen14/agy-hq)** — 轻量级主动式个人智能体操作系统（`Apache-2.0`），将常驻运行的 Mac 或 Linux Antigravity 工作站升级为支持定时巡检与上下文联动的全天候个人助手。`Go + Skills + Automation`
 - **[SRE Extension (`gemini-cli-extensions`)](https://github.com/gemini-cli-extensions/sre)** — 官方开源（`Apache-2.0`）站点可靠性工程（SRE）扩展，为 `agy` CLI 与 Claude Code 提供云端线上故障排查、可观测性研判与应急诊断工具链。`Skills + Cloud SRE`
 - **[Google Ads API Developer Assistant](https://github.com/googleads/google-ads-api-developer-assistant)** — Google Ads 官方开源开发助手（`Apache-2.0`），支持通过自然语言检索文档、生成 GAQL 查询并调试广告 API。`Official Assistant`
@@ -283,6 +284,7 @@
 *用于快速开发 Antigravity 新插件 / Sidecar 的开发工具包，以及可封装进插件的模块化 `SKILL.md` 技能仓库。*
 
 - **[Antigravity Sidecar Kit](https://github.com/arthurcavallari/antigravity-sidecar-kit)** — 零依赖的 Antigravity 右侧辅助面板（Aux Pane Sidecar）SDK 与命令行脚手架，内置 Connect RPC 客户端、宿主主题与 Tailwind 同步代理及安装器。`Sidecar SDK`
+- **[Antigravity Meta Plugin Kit](https://github.com/sipki-tech/antigravity-meta-plugin-kit)** — 零依赖 Node.js 原生 Google Antigravity 插件工程化工具包（适配 `agy 1.5.17+`）：包含 7 种脚手架模板、11 模块离线严格 Linter、只读环境诊断（`/meta-doctor`）、13 项运行时契约探针、fail-open Hook SDK、11 个技能与 3 个隔离 Subagent。`Plugin SDK + Linter + Skills + Subagents`
 - **[AI Agent Skills (`simota`)](https://github.com/simota/agent-skills)** — 基于 MIT 开源的 90 位专业子代理、49 套编排配方与 11 大领域 `SKILL.md` 技能包（覆盖研发、安全、FinOps、设计、测试与可观测性），兼容 `agy` CLI、Claude Code 与 Codex。`90 Agents + 11 Skill Packs`
 - **[Antigravity Skills (`rmyndharis`)](https://github.com/rmyndharis/antigravity-skills)** — 高人气社区精选 Google Antigravity 技能库，覆盖前后端架构、测试、安全与运维场景。`Skill Library`
 - **[Sample Google Antigravity Skills (`rominirani`)](https://github.com/rominirani/antigravity-skills)** — 结构清晰的官方风格 `SKILL.md` 示例集合，适合作为编写自定义技能的入门模板。`Reference Examples`
