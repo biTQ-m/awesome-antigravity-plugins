@@ -72,6 +72,7 @@
 - **[AGY Claude Style](https://github.com/0DNANCY/agy-claude-style)** — Cross-platform (`Windows` / `macOS` / `Linux`) UI restyling, multilingual localization, Token HUD telemetry, and interactive pixel mascot (`Clawd`) plugin for Antigravity. `Desktop UI + HUD`
 - **[Antigravity Pulse](https://github.com/yangyu2004/antigravity-pulse)** — Inline chat step cards, lifecycle stall detector, and real-time token throughput & quota dashboard. `Desktop UI + Telemetry`
 - **[Anti-Claude](https://github.com/hongqi7/Anti-Claude)** — Brings Claude.app-inspired interleaved step narration, live `TodoWrite` progress cards, and desktop UI rhythm to Antigravity Desktop via zero-patch runtime CDP injection. `Desktop UI`
+- **[Antigravity Action Launchpad](https://github.com/404kidwiz/antigravity-action-launchpad)** — Zero-framework inline MCP App (`ui://`) and rules plugin that replaces repetitive `"go"` replies with 1-line keyboard command pills (`1`–`3`, `d` to expand), a fixed-height zero-jump hover `Why`/`What` Decision Inspector, A2UI-inspired `ChoicePicker` chips and inline short text fields, 2-step crimson `Click to confirm` arming guardrails, Warm Light/Dark native polarity, and a 1-paste 2-question Slim/Full agent setup (zero `npm install`). `macOS / Linux / Windows` `MCP App + Rules`
 
 ---
 
