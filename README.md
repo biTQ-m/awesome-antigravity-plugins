@@ -101,6 +101,7 @@
 - **[AGY Lens (`xukp20`)](https://github.com/xukp20/agy-lens)** — Local-first Desktop telemetry sidecar featuring a prompt cache observatory, long-context cost analytics, and a daily activity heatmap. `Aux Pane Sidecar`
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — Real-time Sidecar tracking agent phases, Lifecycle Hooks, and upstream reachability to distinguish active work from silent hangs. `Sidecar + Hooks`
 - **[Antigravity Context Card](https://github.com/Shawn1565/antigravity-context-card)** — Zero-invasion, Claude Desktop-style MCP App sidebar, pure-stdlib `agy` CLI `statusLine`, and **personalized one-click Suggested Replies** (learns your style locally in SQLite; 1 primary + 2 alternatives via Desktop `Send` or pane-isolated `tmux` `Alt+y`, with zero-key `agy` subscription / BYOK / Ollama) alongside real 512K auto-compact headroom (`512K · 1M native`), `Messages` / `Thinking` / `Tool I/O` breakdown, and prompt cache %. `MCP App + Hooks + CLI statusLine`
+- **[Context Lens](https://github.com/Bileneret/context-lens)** — Local, read-only MCP App (`ui://`) context window and prompt-cache monitor for Antigravity Desktop with 0 prompt token overhead (`visibility: ["app"]`), Dual Cap readout (compaction budget vs. native window), `node:sqlite` `TopLevelTokenGroup` breakdown with Gen 1/2/3 `transcript.jsonl` fallback, `aux_pane` / `global` / opt-in `inline` surfaces, and one-click `updateModelContext()` handoff summaries. `MCP App (ui://)`
 
 ### Antigravity IDE & VS Code Quota Panels
 

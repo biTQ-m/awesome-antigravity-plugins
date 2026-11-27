@@ -101,6 +101,7 @@
 - **[AGY Lens (`xukp20`)](https://github.com/xukp20/agy-lens)** — 本地只读桌面端遥测 Sidecar，内置 Prompt 缓存观测台、长上下文成本分析与日历热力图。`Aux Pane Sidecar`
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — 实时追踪 Agent 执行阶段、Lifecycle Hooks 与上游连通性的 Sidecar，快速区分正常思考与静默卡顿。`Sidecar + Hooks`
 - **[Antigravity Context Card](https://github.com/Shawn1565/antigravity-context-card)** — 零侵入、仿 Claude Desktop 风格的原生 MCP App 侧边栏、纯标准库 `agy` CLI `statusLine` 与**个性化一键智能建议回复**插件：本地 SQLite 静默学习个人表达风格，实时生成 1 主建议 + 2 备选（支持桌面端一键 `Send`、窗格隔离 `tmux` `Alt+y` 填入及零 Key 复用 `agy` 订阅 / BYOK / Ollama），并同步追踪真实 512K 自动压缩余量（`512K · 1M native`）、`Messages` / `Thinking` / `Tool I/O` 拆分与缓存命中率。`MCP App + Hooks + CLI statusLine`
+- **[Context Lens](https://github.com/Bileneret/context-lens)** — 面向 Antigravity Desktop 的本地只读 MCP App（`ui://`）上下文窗口与提示缓存监控器：默认 `visibility: ["app"]` 零提示词开销，支持双上限显示（压缩预算 vs. 原生窗口）、基于 `node:sqlite` 的 `TopLevelTokenGroup` 精确拆分及 Gen 1/2/3 `transcript.jsonl` 回退、侧边栏 / 全局标签 / 可选聊天内卡片三种界面，以及一键 `updateModelContext()` 交接摘要。`MCP App (ui://)`
 
 ### Antigravity IDE 侧边栏与配额面板
 
