@@ -61,6 +61,7 @@
 - **[Antigravity Doc Preview](https://github.com/Cl-Ask47/antigravity-doc-preview)** — Preview PDF, Word, PowerPoint, and Excel documents directly inside the Antigravity sidecar and inline chat. `Aux Pane Sidecar`
 - **[Antigravity Inline Editor](https://github.com/mustafaakben/antigravity-inline-editor)** — Unofficial inline Edits tab for Antigravity Desktop with autosave, find & replace, comment, and quote actions. `Aux Pane Sidecar`
 - **[Finder Explorer (`finder-explorer`)](https://github.com/jinxingtaire/finder-explorer)** — Zero-dependency macOS MCP App plugin rendering interactive inline file cards and an `aux_pane` directory browser that reveals workspace or `.gemini` artifact files directly in Finder (`open -R`) on double-click. `macOS` `MCP App + Rules`
+- **[Antigravity Codex Monitor](https://github.com/Lyl101010/antigravity-codex-monitor)** — Native MCP App right-pane Mission Control monitor and cross-platform `codex-worker` delegation bundle for local OpenAI Codex CLI (`codex exec`): streams live commands, syntax-colored diffs, and token/cache metrics every 0.8s via local read-only polling with Git `--worktree` isolation, no-workspace scratch fallback, and zero `.asar`/CDP patching. `MCP App + Skill`
 
 ### Interface Suites & Step Experience
 

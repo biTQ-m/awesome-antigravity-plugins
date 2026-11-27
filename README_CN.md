@@ -61,6 +61,7 @@
 - **[Antigravity Doc Preview](https://github.com/Cl-Ask47/antigravity-doc-preview)** — 在 Antigravity 侧边栏与内联聊天中直接预览 PDF、Word、PowerPoint 和 Excel 文档。`Aux Pane Sidecar`
 - **[Antigravity Inline Editor](https://github.com/mustafaakben/antigravity-inline-editor)** — 为 Antigravity 桌面端提供带自动保存、查找替换、批注与引用功能的内联编辑标签页。`Aux Pane Sidecar`
 - **[Finder Explorer (`finder-explorer`)](https://github.com/jinxingtaire/finder-explorer)** — 零外部依赖的 macOS 原生 MCP App 插件：提供对话流内联文件卡片与右侧 `aux_pane` 目录浏览器，支持双击一键唤起 macOS 访达（`open -R`）高亮定位工作区或 `.gemini` 产物文件。`macOS` `MCP App + Rules`
+- **[Antigravity Codex Monitor](https://github.com/Lyl101010/antigravity-codex-monitor)** — 面向本地官方 OpenAI Codex CLI（`codex exec`）的原生 MCP App 右侧栏实时监控与跨平台 `codex-worker` 派单套件：每 0.8s 纯本地只读轮询直播命令、语法高亮 Diff 与 Token/缓存命中率（零额外 LLM 消耗），内置 Git `--worktree` 隔离与无工作区自动落盘，零 `.asar`/CDP 侵入。`MCP App + Skill`
 
 ### 桌面界面套件与步骤交互增强
 
