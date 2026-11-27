@@ -75,6 +75,7 @@
 - **[ag-vario](https://github.com/Staaaying/ag-vario)** — 面向 macOS Antigravity 2.0 桌面端的零依赖、纯只读观测 HUD：支持在 2/3/4 分屏各窗格输入栏独立展示会话 Token、5 类上下文构成与子代理状态，顶栏提供 `5h`/`7d` 额度圆环与 30 天用量热力图，自带原版备份与一键无损还原。`macOS` `Desktop HUD`
 - **[Qufu Antigravity Monitor](https://github.com/QufuLabs/qufu-antigravity-monitor)** — 面向 Antigravity 2.0 桌面端的零 Token、零遥测本地模型配额监控插件：通过官方 `agy -p "/usage"` 实时追踪 Gemini 与 Claude/GPT 的 5 小时及每周剩余额度与每秒重置倒计时，包含跨平台 `aux_pane` + `global` 原生 MCP App 以及自动同步 Antigravity 主题配色的 Windows 置顶无边框迷你栏。`MCP App + Windows HUD`
 
+- **[AGY Usage (`agy-usage`)](https://github.com/qiudai0627/agy-usage)** — 零第三方依赖、100% 纯本地运行的实时额度与 Token 用量监控套件：集成 macOS 原生防刘海半透明悬浮胶囊（`Swift`）、Windows 任务栏迷你小组件、CLI `statusLine` 四格彩色进度条与 11 国语言网页监控台（支持浅色/通透/深色三套主题、Gemini 与 Claude/GPT 双池独立倒计时及一键脱敏战报卡）。`CLI statusLine + Desktop HUD`
 ---
 
 ## 性能加速、工程流与多智能体编排
