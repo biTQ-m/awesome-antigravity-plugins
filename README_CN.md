@@ -71,6 +71,7 @@
 - **[AGY Claude Style](https://github.com/0DNANCY/agy-claude-style)** — 支持 Windows / macOS / Linux 的一体化界面重塑、多语言本地化、Token HUD 遥测增强与可交互像素小螃蟹桌宠（`Clawd`）插件。`Desktop UI + HUD`
 - **[Antigravity Pulse](https://github.com/yangyu2004/antigravity-pulse)** — 提供 Claude 风格内联步骤卡片、生命周期卡死监测与实时 Token 吞吐量仪表盘。`Desktop UI + Telemetry`
 - **[Anti-Claude](https://github.com/hongqi7/Anti-Claude)** — 通过零改包运行时 CDP 注入，将 Claude.app 风格的边做边说节奏、实时 `TodoWrite` 进度卡片与界面质感引入 Antigravity 桌面端。`Desktop UI`
+- **[Antigravity Action Launchpad](https://github.com/404kidwiz/antigravity-action-launchpad)** — 零框架内联 MCP App（`ui://`）与规则插件，将重复输入 `"go"` 替换为单行键盘命令条（`1`–`3` 快捷键、`d` 展开详情）、定高零抖动悬停 `Why`/`What` 决策检视器、受 A2UI 启发的 `ChoicePicker` 选项芯片与内联短文本输入框、高危操作两步确认防护、Warm Light/Dark 原生主题适配，以及零 `npm install` 的一键粘贴 Slim/Full 双模式引导配置。`macOS / Linux / Windows` `MCP App + Rules`
 
 ---
 
