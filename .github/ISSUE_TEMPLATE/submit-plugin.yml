@@ -24,9 +24,9 @@ body:
       options:
         - Desktop UI, Auxiliary Pane & HUDs
         - Telemetry, Context Window & Statuslines
-        - Performance, Workflow & Swarm Orchestration
+        - Performance, Memory, Workflow & Swarm Orchestration
         - Browser, Computer Use & Creative Automation
-        - Cross-Agent Bridges & ACP Ecosystem
+        - Cross-Agent Bridges, ACP & Remote Control
         - Official & Partner Marketplace Catalog
         - Skill Suites & Plugin Authoring Toolkits
         - Environment & Multi-Account Managers
@@ -39,7 +39,8 @@ body:
       label: Extension Surfaces Used
       options:
         - label: plugin.json manifest
-        - label: Auxiliary Pane UI Sidecar (sidecars/)
+        - label: Auxiliary Pane / Sidebar UI Sidecar (sidecars/)
+        - label: Interactive MCP App (ui:// resource via @modelcontextprotocol/ext-apps)
         - label: Skills (skills/<name>/SKILL.md)
         - label: MCP Server (mcp_config.json)
         - label: Lifecycle Hooks (hooks.json)
