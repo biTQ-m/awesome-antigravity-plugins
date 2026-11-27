@@ -73,6 +73,7 @@
 - **[AGY Lens](https://github.com/xukp20/agy-lens)** — 本地只读桌面端遥测 Sidecar，内置 Prompt 缓存观测台、长上下文成本分析与日历热力图。
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — 实时追踪 Agent 执行阶段、Lifecycle Hooks 与上游连通性的 Sidecar，快速区分正常思考与静默卡顿。
 - **[ag-vario](https://github.com/Staaaying/ag-vario)** — 面向 macOS Antigravity 2.0 桌面端的零依赖、纯只读观测 HUD：支持在 2/3/4 分屏各窗格输入栏独立展示会话 Token、5 类上下文构成与子代理状态，顶栏提供 `5h`/`7d` 额度圆环与 30 天用量热力图，自带原版备份与一键无损还原。`macOS` `Desktop HUD`
+- **[Qufu Antigravity Monitor](https://github.com/QufuLabs/qufu-antigravity-monitor)** — 面向 Antigravity 2.0 桌面端的零 Token、零遥测本地模型配额监控插件：通过官方 `agy -p "/usage"` 实时追踪 Gemini 与 Claude/GPT 的 5 小时及每周剩余额度与每秒重置倒计时，包含跨平台 `aux_pane` + `global` 原生 MCP App 以及自动同步 Antigravity 主题配色的 Windows 置顶无边框迷你栏。`MCP App + Windows HUD`
 
 ---
 

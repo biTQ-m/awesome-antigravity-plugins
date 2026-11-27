@@ -73,6 +73,7 @@
 - **[AGY Lens](https://github.com/xukp20/agy-lens)** — Local-first Desktop telemetry sidecar featuring a prompt cache observatory, long-context cost analytics, and a daily activity heatmap.
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — Real-time Sidecar tracking agent phases, Lifecycle Hooks, and upstream reachability to distinguish active work from silent hangs.
 - **[ag-vario](https://github.com/Staaaying/ag-vario)** — Zero-dependency, read-only macOS HUD for Antigravity 2.0 Desktop showing per-pane composer cards (session tokens, 5-category context breakdown, subagents across 2/3/4+ split panes) alongside titlebar `5h`/`7d` quota rings and a 30-day usage heatmap, with verified backup and lossless restore. `macOS` `Desktop HUD`
+- **[Qufu Antigravity Monitor](https://github.com/QufuLabs/qufu-antigravity-monitor)** — Zero-token, zero-telemetry local model quota monitor for Antigravity 2.0 Desktop: tracks Gemini and Claude/GPT 5-hour and weekly limits with live 1-second reset countdowns via `agy -p "/usage"`, pairing a cross-platform `aux_pane` + `global` MCP App with an optional borderless Windows always-on-top mini bar that auto-syncs with your Antigravity theme. `MCP App + Windows HUD`
 
 ---
 
