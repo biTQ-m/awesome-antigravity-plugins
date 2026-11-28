@@ -116,7 +116,6 @@
 - **[AGY HUD (`franksde`)](https://github.com/franksde/agy-hud)** — 轻量级 Antigravity CLI 状态插件，集中展示上下文用量、配额比例、当前模型信息与 Agent 运行态。`CLI statusLine`
 - **[gravity-hud](https://github.com/sb1733831438-maker/gravity-hud)** — 本地、非官方的 `agy` CLI 状态栏：显示模型、git、上下文与配额（含重置倒计时），并增量解析会话 transcript 展示当前工具、子 agent 与待办进度。零运行时依赖，不联网。`CLI statusLine`
 
-
 ---
 
 ## 性能加速、跨会话记忆与多智能体编排
