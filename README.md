@@ -101,6 +101,7 @@
 - **[AGY Lens (`xukp20`)](https://github.com/xukp20/agy-lens)** — Local-first Desktop telemetry sidecar featuring a prompt cache observatory, long-context cost analytics, and a daily activity heatmap. `Aux Pane Sidecar`
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — Real-time Sidecar tracking agent phases, Lifecycle Hooks, and upstream reachability to distinguish active work from silent hangs. `Sidecar + Hooks`
 - **[Antigravity Context Card](https://github.com/Shawn1565/antigravity-context-card)** — Zero-invasion, Claude Desktop-style MCP App sidebar, pure-stdlib `agy` CLI `statusLine`, and **personalized one-click Suggested Replies** (learns your style locally in SQLite; 1 primary + 2 alternatives via Desktop `Send` or pane-isolated `tmux` `Alt+y`, with zero-key `agy` subscription / BYOK / Ollama) alongside real 512K auto-compact headroom (`512K · 1M native`), `Messages` / `Thinking` / `Tool I/O` breakdown, and prompt cache %. `MCP App + Hooks + CLI statusLine`
+- **[Antigravity Status Bar (`antigravity-status-bar`)](https://github.com/ballShell/antigravity-status-bar)** — Zero-token read-only side-panel status bar for Antigravity 2.0 Desktop (SQLite + Protobuf) featuring a Claude Code-style segmented context bar with compaction threshold tick, prompt cache hit & thinking-output stats, estimated API cost & multi-model breakdowns, live background task/subagent log inspection, and a collapsible checkpoints timeline. `Aux Pane Sidecar`
 
 ### Antigravity IDE & VS Code Quota Panels
 
@@ -187,6 +188,7 @@
 - **[AGY MCP (`Boulea7`)](https://github.com/Boulea7/agy-mcp)** — Exposes `agy` as a 10-tool MCP server with worktree-isolated execution and long-task supervision for Cursor, Codex, or any MCP client. `MCP Server`
 - **[agy-mcp (`tphakala`)](https://github.com/tphakala/agy-mcp)** — Lightweight MCP server wrapping `agy` CLI with async job supervision and completion wakes for Claude Code, Cursor, Cline, and other MCP clients. `MCP Server`
 - **[NotebookLM via Antigravity](https://github.com/MarcosNahuel/antigravity-plugin-cc)** — Turns local document folders into per-doc summaries, relevance indexes, cited syntheses, audio/video transcripts, and HTML research reports via `agy`. `Research Workflow`
+- **[Codex Bridge (`ballShell`)](https://github.com/ballShell/codex-bridge)** — Antigravity 2.0 plugin wrapping OpenAI Codex CLI as a controllable subagent (Gemini as conversational translator, Codex as engineering worker) with two-phase plan-then-build (`codex_plan` → `codex_run`) and code review workflows, soft/hard duration watchdogs, plugin-scoped default model switching, and a per-conversation 6-state animated Pixel-Dragon Codex Monitor sidecar. `Aux Pane Sidecar + MCP + Skills + Rules`
 
 ---
 

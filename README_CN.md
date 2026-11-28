@@ -101,6 +101,7 @@
 - **[AGY Lens (`xukp20`)](https://github.com/xukp20/agy-lens)** — 本地只读桌面端遥测 Sidecar，内置 Prompt 缓存观测台、长上下文成本分析与日历热力图。`Aux Pane Sidecar`
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — 实时追踪 Agent 执行阶段、Lifecycle Hooks 与上游连通性的 Sidecar，快速区分正常思考与静默卡顿。`Sidecar + Hooks`
 - **[Antigravity Context Card](https://github.com/Shawn1565/antigravity-context-card)** — 零侵入、仿 Claude Desktop 风格的原生 MCP App 侧边栏、纯标准库 `agy` CLI `statusLine` 与**个性化一键智能建议回复**插件：本地 SQLite 静默学习个人表达风格，实时生成 1 主建议 + 2 备选（支持桌面端一键 `Send`、窗格隔离 `tmux` `Alt+y` 填入及零 Key 复用 `agy` 订阅 / BYOK / Ollama），并同步追踪真实 512K 自动压缩余量（`512K · 1M native`）、`Messages` / `Thinking` / `Tool I/O` 拆分与缓存命中率。`MCP App + Hooks + CLI statusLine`
+- **[Antigravity Status Bar (`antigravity-status-bar`)](https://github.com/ballShell/antigravity-status-bar)** — 面向 Antigravity 2.0 桌面端的零 Token 纯只读实时侧边状态栏（直读本地 SQLite + Protobuf）：提供 Claude Code 风格分段上下文条与压缩阈值刻度、Prompt 缓存命中率与思考输出占比、等值 API 费用与多模型分布估算、后台命令与子代理实时日志监控以及可折叠 Checkpoints 时间线。`Aux Pane Sidecar`
 
 ### Antigravity IDE 侧边栏与配额面板
 
@@ -187,6 +188,7 @@
 - **[AGY MCP (`Boulea7`)](https://github.com/Boulea7/agy-mcp)** — 将 `agy` 封装为含 10 个强类型工具、支持 Git Worktree 隔离执行的标准 MCP 后端，可供任意 MCP 客户端接入。`MCP Server`
 - **[agy-mcp (`tphakala`)](https://github.com/tphakala/agy-mcp)** — 轻量级 `agy` CLI MCP 封装服务，内置异步任务监管与完成唤醒通知，适配 Claude Code、Cursor 与 Cline。`MCP Server`
 - **[NotebookLM via Antigravity](https://github.com/MarcosNahuel/antigravity-plugin-cc)** — 借助 `agy` 实现本地版 NotebookLM：支持文件夹级文档摘要、相关性索引、带引用的综合问答、音视频转写与 HTML 研究报告导出。`Research Workflow`
+- **[Codex Bridge (`ballShell`)](https://github.com/ballShell/codex-bridge)** — 面向 Antigravity 2.0 的「前店后厂」双模型协同插件（Gemini 负责对话翻译与验收，OpenAI Codex CLI 负责架构设计、多文件实现与代码审查）：支持两阶段先规划后执行（`codex_plan` → `codex_run`）与按需审查、软硬双层时长与静默看门狗、插件级默认模型隔离切换，以及按会话隔离的 6 态像素龙 Codex Monitor 右侧实时看板。`Aux Pane Sidecar + MCP + Skills + Rules`
 
 ---
 
