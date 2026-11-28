@@ -114,6 +114,8 @@
 - **[Antigravity CLI Statusline (`weby-homelab`)](https://github.com/weby-homelab/antigravity-cli-statusline)** — 响应式高信息密度的 Antigravity CLI（`agy`）终端状态栏插件。`CLI statusLine`
 - **[Statusline HUD (`linbo0518`)](https://github.com/linbo0518/antigravity-hud)** — 基于纯 Bash + `jq` 构建的自适应多行终端 `statusLine` 与交互式 `/hud` 配置插件。`CLI statusLine + Skill`
 - **[AGY HUD (`franksde`)](https://github.com/franksde/agy-hud)** — 轻量级 Antigravity CLI 状态插件，集中展示上下文用量、配额比例、当前模型信息与 Agent 运行态。`CLI statusLine`
+- **[gravity-hud](https://github.com/sb1733831438-maker/gravity-hud)** — 本地、非官方的 `agy` CLI 状态栏：显示模型、git、上下文与配额（含重置倒计时），并增量解析会话 transcript 展示当前工具、子 agent 与待办进度。零运行时依赖，不联网。`CLI statusLine`
+
 
 ---
 
