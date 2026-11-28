@@ -113,8 +113,8 @@
 - **[Antigravity CLI Statusline (`AndyAWD`)](https://github.com/AndyAWD/antigravity-cli-statusline)** — Cross-platform statusline skill and bar for `agy` CLI surfacing API quotas, token usage, Git branch status, and system resources with multilingual support. `CLI statusLine + Skill`
 - **[Antigravity CLI Statusline (`weby-homelab`)](https://github.com/weby-homelab/antigravity-cli-statusline)** — Responsive, high-density terminal `statusLine` plugin for Antigravity CLI (`agy`). `CLI statusLine`
 - **[Statusline HUD (`linbo0518`)](https://github.com/linbo0518/antigravity-hud)** — Adaptive multi-line terminal `statusLine` and interactive `/hud` configuration plugin for `agy` CLI built in pure Bash + `jq`. `CLI statusLine + Skill`
-- **[AGY HUD (`franksde`)](https://github.com/franksde/agy-hud)** — Lightweight Antigravity CLI status plugin surfacing context window consumption, quota status, active model, and agent state. `CLI - **[gravity-hud](https://github.com/sb1733831438-maker/gravity-hud)** — Local, unofficial `agy` CLI statusLine showing model, git, context and quota with a reset countdown, plus tools, subagents and todos parsed incrementally from the session transcript. Zero runtime dependencies, no network. `CLI statusLine`
-statusLine`
+- **[AGY HUD (`franksde`)](https://github.com/franksde/agy-hud)** — Lightweight Antigravity CLI status plugin surfacing context window consumption, quota status, active model, and agent state. `CLI statusLine`
+- **[gravity-hud](https://github.com/sb1733831438-maker/gravity-hud)** — Local, unofficial `agy` CLI statusLine showing model, git, context and quota with a reset countdown, plus tools, subagents and todos parsed incrementally from the session transcript. Zero runtime dependencies, no network. `CLI statusLine`
 
 ---
 
