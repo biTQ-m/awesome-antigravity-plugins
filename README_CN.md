@@ -180,6 +180,7 @@
 - **[DSH AGY Link](https://github.com/amlyczz/dsh-agy-link)** — 将 Google Antigravity（`agy` CLI 与 `agy acp`）接入 DeepSeek Harness，支持按模型族多账号配额池化、流式思考/工具动态展示与对话内生图。`DeepSeek Harness ↔ agy`
 - **[AGY Staff](https://github.com/keli-wen/agy-staff)** — 在 Claude Code、OpenAI Codex 等工具中将 `agy` CLI 作为高速子代理调用，分担代码检索、长上下文阅读与交叉代码审查。`Cross-Harness CLI`
 - **[Pi Antigravity ACP Provider](https://github.com/zacbemis/pi-antigravity-acp-provider)** — 基于官方 ACP 协议为 Pi 编码框架提供原生 Google Antigravity 接入能力。`Pi ↔ ACP`
+- **[Pi Plugin for Antigravity](https://github.com/hhelibeb/pi-plugin-antigravity)** — 将 Google Antigravity（`agy` CLI 与 Antigravity 2.0/IDE）连接至本地 Pi coding agent CLI（`pi --mode json`），支持只读代码审查、对抗性架构评审与最小权限工具白名单委派，零外部依赖且无需 MCP。`agy → Pi Plugin + Skills`
 - **[Antigravity Codex Worker](https://github.com/lbc9168/antigravity-codex-worker)** — 让 Antigravity 中的 Gemini / Opus 担任首席架构师与审查员，同时调度本机沙箱化 OpenAI Codex CLI（`codex exec`）落地编码的协同 Skill。`agy → Codex Skill`
 - **[Antigravity ACP](https://github.com/shubzkothekar/antigravity-acp)** — 基于 Bun 构建的 Agent Client Protocol (ACP) 服务端，让兼容 ACP 协议的编辑器直连驱动 `agy` 并支持流式输出与历史回放。`ACP Server`
 - **[Antigravity Plugin for Claude Code (`simplybychris`)](https://github.com/simplybychris/antigravity-plugin-cc)** — 在 Claude Code 内直接调用 `agy` 委派开发任务、执行快速问答或进行跨模型 Code Review。`Claude Code ↔ agy`
