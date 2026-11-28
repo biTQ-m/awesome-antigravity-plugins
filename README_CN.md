@@ -73,6 +73,7 @@
 - **[Antigravity Pulse](https://github.com/yangyu2004/antigravity-pulse)** — 提供 Claude 风格内联步骤卡片、生命周期卡死监测与实时 Token 吞吐量仪表盘。`Desktop UI + Telemetry`
 - **[Anti-Claude](https://github.com/hongqi7/Anti-Claude)** — 通过零改包运行时 CDP 注入，将 Claude.app 风格的边做边说节奏、实时 `TodoWrite` 进度卡片与界面质感引入 Antigravity 桌面端。`Desktop UI`
 - **[Antigravity Action Launchpad](https://github.com/404kidwiz/antigravity-action-launchpad)** — 零框架内联 MCP App（`ui://`）与规则插件，将重复输入 `"go"` 替换为单行键盘命令条（`1`–`3` 快捷键、`d` 展开详情）、定高零抖动悬停 `Why`/`What` 决策检视器、受 A2UI 启发的 `ChoicePicker` 选项芯片与内联短文本输入框、高危操作两步确认防护、Warm Light/Dark 原生主题适配，以及零 `npm install` 的一键粘贴 Slim/Full 双模式引导配置。`macOS / Linux / Windows` `MCP App + Rules`
+- **[Agy Bookmarks (`agy-bookmarks`)](https://github.com/LNPANDY/agy-bookmarks)** — 面向 Antigravity 2.0 桌面端的零外部依赖会话内消息书签与精准跳转插件：支持在任意用户提问或 AI 回答旁一键收藏并添加自定义标题、备注与 5 色标签，基于真实 `stepIndex`/`turnIndex` 自动触发历史分片加载并启用 2.8 秒抗漂移滚动锁防止长历史回溯乱跳，主画布悬浮抽屉（`Alt+B` / `Cmd+Shift+B`）与官方右侧辅助栏实时同步，支持跨会话跳转、一键引用到输入框及 Markdown/JSON 导出，零改包且与 `agy-powertools` 隔离共存。`macOS / Linux / Windows` `Aux Pane Sidecar + Desktop UI`
 
 ---
 
