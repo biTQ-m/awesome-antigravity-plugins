@@ -101,7 +101,7 @@
 - **[AGY Lens (`xukp20`)](https://github.com/xukp20/agy-lens)** — 本地只读桌面端遥测 Sidecar，内置 Prompt 缓存观测台、长上下文成本分析与日历热力图。`Aux Pane Sidecar`
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — 实时追踪 Agent 执行阶段、Lifecycle Hooks 与上游连通性的 Sidecar，快速区分正常思考与静默卡顿。`Sidecar + Hooks`
 - **[Antigravity Context Card](https://github.com/Shawn1565/antigravity-context-card)** — 零侵入、仿 Claude Desktop 风格的原生 MCP App 侧边栏、纯标准库 `agy` CLI `statusLine` 与**个性化一键智能建议回复**插件：本地 SQLite 静默学习个人表达风格，实时生成 1 主建议 + 2 备选（支持桌面端一键 `Send`、窗格隔离 `tmux` `Alt+y` 填入及零 Key 复用 `agy` 订阅 / BYOK / Ollama），并同步追踪真实 512K 自动压缩余量（`512K · 1M native`）、`Messages` / `Thinking` / `Tool I/O` 拆分与缓存命中率。`MCP App + Hooks + CLI statusLine`
-- **[Token Tracker](https://github.com/xzha0637-design/token-tracker)** — 零配置、100% 本地只读的 Token 消耗、等价成本与上下文窗口分析套件，支持 Antigravity、Claude Code 与 OpenAI Codex CLI，集成 0-LLM `/context` 瞬出 Hook、交互式 MCP App 全屏仪表盘（`global`）与右侧上下文监控（`aux_pane`）、Turn-0 启动开销体检（`--audit`）、Prompt Cache TTL 实时倒计时、0-LLM 会话交接包（`--handoff`）与低延迟 CLI `statusLine`。`MCP App + Hooks + Skill + CLI statusLine`
+- **[Token Tracker](https://github.com/xzha0637-design/token-tracker)** — 本地只读零依赖 MCP App，提供各模型 Token 用量看板、Prompt 缓存保鲜倒计时、10 类上下文拆解、单步膨胀元凶定位、Turn-0 启动开销审计、0-LLM `/context`/`/token-usage`/`/codex` 秒出 Hook、终端 `statusLine`，以及 OpenAI Codex → Antigravity 按工作区一键迁移工作台。`MCP App` `Hooks` `Skill` `CLI statusLine`
 
 ### Antigravity IDE 侧边栏与配额面板
 
